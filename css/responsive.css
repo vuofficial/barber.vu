@@ -1,0 +1,799 @@
+@media(max-width:1320px){
+    .container{
+        padding-left:60px !important;
+        padding-right:60px !important;
+    }
+
+    /* ====== Banner ===== */
+    .banner .basket{
+        height: 100vh; 
+    }
+
+    /* ===== Product ===== */
+    .product .product-card{
+        width: 24%;
+    }
+    .product .five{
+        display: none;
+    }
+
+    /* ====== Deals ====== */
+    .shop-deal .cards-main{
+        background-size: cover !important;
+    }
+    .shop-deal .c-2 .cards-data h3{
+        font-size: 30px;
+    }
+
+    /* ====== Deals ======= */
+    .deals .col-3{
+        width: 33.33%;
+    }
+    .deals .col-9{
+        width: 66.66%;
+    }
+    .deals .col-9 .five{
+        display: none !important;
+    }
+    .deals .col-9 .six{
+        display: none !important;
+    }
+    .deals .col-9 .two{
+        border-right: none;
+    }
+    .deals .col-9 .four{
+        border-right:none;
+    }
+    .deals .col-9 .three{
+        border-right: 1px solid #ececec;
+        border-bottom: none;
+    }
+    .deals .col-9 .main-col{
+        width: 50%;
+    }
+
+    /* ======== Category ======== */
+    .category .col-2{
+        width: 25% !important;
+    }
+    .category .col-2 h3{
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    /* ======= Delivery ======== */
+    .delivery .main{
+        background-size: cover;
+    }
+
+    /* ====== Best ====== */
+    .best .cards-main{
+        background-size: cover !important;
+    }
+}
+@media(max-width:1200px){
+    .container{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+
+    /* ====== Header ======= */
+   
+ 
+    header .keypoint{
+        width: 50%;
+    }
+
+    /* ======= Bannner ===== */
+    .banner .content{
+        padding-left: 20px;
+        /* padding-bottom: 50px;
+        padding-top: 50px; */
+    }
+    .banner h1{
+        font-size: 54px;
+        margin-bottom: 0;
+    }
+    .banner p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    /* ===== Product ===== */
+    .product .product-card{
+        width: 32%;
+    }
+    .product .four{
+        display: none;
+    }
+    .product .five{
+        display: none;
+    }
+    
+    /* ====== Sale ====== */
+    .sale .main{
+        background-size: 150%;
+    }
+
+    /* ======== Category ======== */
+    .category .col-2{
+        width: 33.33% !important;
+    }
+    .category .col-2 h3{
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .category .col-2 .image::before{
+        position: absolute;
+        content: "";
+        width: 250px;
+        height: 250px;
+    }
+
+}
+@media(max-width:1024px){
+    .container{
+        padding-left:60px;
+        padding-right:60px;
+    }
+
+        
+    /* ====== Sale ====== */
+    .sale .main{
+        background-size: 170%;
+    }
+    
+    /* ======= Delivery ======== */
+    .delivery .main .inner{
+        display: block !important;
+        text-align: center;
+    }
+    .delivery .main .inner .cstm-btns{
+        margin: 0 auto;
+    }
+
+    /* ====== Best ====== */
+    .best .col-4{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .best .all-cards{
+        width: 100%;
+    }
+
+    /* ======= Sub - Footer ====== */
+    .sub-footer .newsletter{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sub-footer .store{
+        width: 50%;
+    }
+    .sub-footer .follow{
+        width: 50%;
+    }
+    footer .first{
+        width: 50%;
+        display: block;
+        text-align-last: left;
+        margin-bottom: 50px;
+    }
+    footer .info{
+        width: 50%;
+    }
+    footer .account{
+        width: 50%;
+    }
+    footer .category{
+        width: 25%;
+    }
+    footer .advisor{
+        width: 25%;
+    }
+    footer .first .logo-image{
+        justify-content: start !important;
+    }
+    footer .last{
+        display: none;
+    }
+}
+@media(max-width:992px){
+    .container{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+
+  
+
+    /* ======= Offers ====== */
+    .offers .col-6 .cards-main{
+        background-size: 150%;
+        padding: 30px;
+    }
+    .offers .col-6 .cards-data{
+        padding: 0;
+    }
+    .offers .col-6 .cards-data h3{
+        line-height: 30px;
+        font-size: 24px !important;
+    }
+
+    /* ======= Product ====== */
+    .product .row .col-5{
+        width: 100% !important;
+    }
+    .product .row .col-7{
+        width: 100% !important;
+    }
+    .product .row .col-5 h2{
+        text-align: center !important;
+        margin-bottom: 20px;
+    }
+    .product .row .col-7 ul{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+            
+    /* ====== Sale ====== */
+    .sale .main{
+        background-size: 200%;
+    }
+    .sale .main .inner-image h2{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .sale .main .inner-image p{
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+    /* ======= Shop - Deals ======= */
+    .shop-deal .col-8{
+        width: 50%;
+    }
+    .shop-deal .col-4{
+        width: 50%;
+    }
+    .shop-deal .c-1 .cards-data h3{
+        font-size: 30px;
+    }
+    .shop-deal .c-1 .cards-data p{
+        font-size: 14px;
+    }
+    .shop-deal .c-2 .cards-data h3{
+        max-width: 150px;
+    }
+
+    
+    /* ====== Deals ======= */
+    .deals .box{
+        margin-top: 20px;
+    }
+    .deals .col-3{
+        display: none;
+    }
+    .deals .col-9{
+        width: 100%;
+    }
+    .deals .col-9 .five{
+        display: flex !important;
+    }
+    .deals .col-9 .six{
+        display: flex !important;
+    }
+    .deals .col-9 .two{
+        border-right: none;
+    }
+    .deals .col-9 .four{
+        border-right:none;
+        border-bottom: 1px solid #ececec;
+    }
+    .deals .col-9 .three{
+        border-right: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
+    }
+    .deals .col-9 .main-col{
+        width: 50%;
+    }
+
+    /* ======== Category ======== */
+    .category .col-2{
+        width: 33.33% !important;
+    }
+    .category .col-2 h3{
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .category .col-2 .image::before{
+        position: absolute;
+        content: "";
+        width: 200px;
+        height: 200px;
+    }
+
+    /* ======= Brand ======= */
+    .brand .col-2{
+        width: 20%;
+    }
+    .brand .six{
+        display: none;
+    }
+
+}   
+@media(max-width:767px){
+    .container{ 
+        padding-left:30px;
+        padding-right:30px;
+    }
+   
+  
+    /* ====== Banner ====== */
+    .banner .basket{
+        position: absolute;
+        bottom: 0;
+        width: 35%;
+        height: 35%;
+        opacity: 0.5;
+        left: 0;
+    }
+    .banner .content{
+        padding: 20px 0;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 50px !important;
+    }
+    .banner .content .cstm-btns{
+        margin: 0 auto;
+    }
+    .banner .content img{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .banner .content p{
+        margin: 20 auto;
+    }
+    .banner .content h1{
+        margin: 10 auto;
+    }
+
+    
+
+    /* ======= Offers ====== */
+    .offers .col-6{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .offers .col-6 .cards-main{
+        background-size: 150%;
+        padding: 30px;
+    }
+    .offers .col-6 .cards-data{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .offers .col-6 .cards-data h3{
+        max-width: 300px;
+        line-height: 30px;
+        font-size: 24px !important;
+    }
+
+    /* ===== Product ===== */
+    .product .product-card{
+        width: 49%;
+    }
+    .product .three{
+        display: none;
+    }
+    .product .four{
+        display: none;
+    }
+    .product .five{
+        display: none;
+    }
+           
+    /* ====== Sale ====== */
+    .sale .main{
+        background-size: cover;
+    }
+    .sale .main .inner-image{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sale .main .inner-image .title{
+        font-size: 12px;
+    }
+    .sale .main .inner-image h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .sale .main .inner-image p{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    /* ======= Shop - Deals ======= */
+    .shop-deal .col-8{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .shop-deal .col-4{
+        width: 100%;
+    }
+    .shop-deal .cards-data h3{
+        font-size: 30px;
+    }
+    .shop-deal .c-2 .cards-data h3{
+        max-width: 100%;
+    }
+    .shop-deal .cards-data p{
+        font-size: 14px;
+    }
+
+
+    /* ====== Deals ======= */
+    .deals .deals-image{
+        padding-left: 0;
+    }
+    .deals .deals-timer{
+        margin: 0 auto;
+        text-align: center;
+        display: block !important;
+    }
+    .deals .deals-timer span::before{
+        content: ":";
+        top: -40% !important;
+    }
+    .deals h2{
+        width: 100%;
+        display: block;
+    }
+
+    /* ======== Category ======== */
+    .category .col-2{
+        width: 50% !important;
+    }
+    .category .col-2 h3{
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .category .col-2 .image::before{
+        position: absolute;
+        content: "";
+        width: 250px;
+        height: 250px;
+    }
+
+    /* ======= Delivery ======== */
+    .delivery .main .inner{
+        display: block !important;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .delivery .main .inner h3{
+        font-size: 30px;
+    }
+    .delivery .main .inner .cstm-btns{
+        margin: 0 auto;
+    }
+
+    /* ======= Brand ======= */
+    .brand .col-2{
+        width: 25%;
+    }
+    .brand .five{
+        display: none;
+    }
+    .brand .six{
+        display: none;
+    }
+
+    /* ======= Sub - Footer ====== */
+    .sub-footer .newsletter{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sub-footer .store{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .sub-footer .follow{
+        width: 100%;
+        text-align-last: left;
+    }
+    .sub-footer .follow ul{
+        justify-content: start;
+    }
+    .sub-footer .follow .image{
+        justify-content: start;
+    }
+    footer .first{
+        width: 100%;
+        display: block;
+        text-align-last: left;
+        margin-bottom: 50px;
+    }
+    footer .info{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .account{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .category{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .advisor{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .first .logo-image{
+        justify-content: start !important;
+    }
+    footer .last{
+        display: none;
+    }
+    .footer-end .row{
+        display: block !important;
+    }
+    .footer-end .row .col-6{
+        width: 100%;
+    }
+    .footer-end .row .col-6 p{
+        text-align-last: left;
+    }
+
+}
+@media(max-width:576px){
+    .container{ 
+        padding-left:50px !important;
+        padding-right:50px !important;
+    }
+    .sub-heading{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    /* ====== Banner ====== */
+    .banner .content p{
+        margin: 20 auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .banner .content h1{
+        line-height: 40px;
+        font-size: 34px;
+        line-height: 55px;
+        margin: 10 auto;
+    }
+    
+   
+    /* ======= Offers ====== */
+    .offers .col-6 .cards-data{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .offers .cards-main{
+        background-size: cover !important;
+        background-position: left !important;
+    }
+    .offers .col-6 .cards-data h3{
+        max-width: 300px;
+        line-height: 30px;
+        font-size: 24px !important;
+    }
+
+    /* ===== Product ===== */
+    .product .product-card{
+        width: 100%;
+    }
+    .product .two{
+        display: none;
+    }
+    .product .three{
+        display: none;
+    }
+    .product .four{
+        display: none;
+    }
+    .product .five{
+        display: none;
+    }
+    .product button{
+        font-size: 10px !important;
+    }
+
+               
+    /* ====== Sale ====== */
+    .sale .main{
+        margin: 0 10px;
+    }
+    .sale .main .inner-image .title{
+        font-size: 8px;
+    }
+    .sale .main .inner-image h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .sale .main .inner-image p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+    .sale .main .cstm-btns{
+        padding: 10px 20px;
+    }
+    .sale .main .cstm-btns span{
+        font-size: 12px;
+    }
+
+    
+    /* ======= Shop - Deals ======= */
+    .shop-deal .cards-data{
+        padding: 32px 15px !important;
+    }
+    .shop-deal .cards-data h3{
+        font-size: 24px !important;
+    }
+    .shop-deal .cards-data p{
+        font-size: 10px !important;
+    }
+
+    
+    /* ====== Deals ======= */
+    .deals .deals-timer h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .deals .box{
+        margin-top: 20px;
+    }
+    .deals .col-9 .five{
+        border-right: none;
+        border-bottom: 1px solid #ececec;
+        display: flex !important;
+    }
+    .deals .col-9 .six{
+        display: flex !important;
+    }
+    .deals .col-9 .two{
+        border-right: none;
+    }
+    .deals .col-9 .one{
+        border-right: none;
+    }
+    .deals .col-9 .four{
+        border-right:none;
+        border-bottom: 1px solid #ececec;
+    }
+    .deals .col-9 .three{
+        border-right: none;
+        border-bottom: 1px solid #ececec;
+    }
+    .deals .col-9 .main-col{
+        width: 100%;
+    }
+
+    /* ======== Category ======== */
+    .category .col-2{
+        width: 100% !important;
+    }
+    .category .col-2 h3{
+        margin-bottom: 50px;
+        margin-top: 0;
+    }
+    .category .col-2 .image img{
+        transform: scale(1);
+        margin: 0 auto;
+    }
+    .category .col-2 .image::before{
+        position: absolute;
+        content: "";
+        width: 250px;
+        height: 250px;
+        top: 0;
+        left: 0;
+    }
+    
+    /* ======= Delivery ======== */
+    .delivery .main{
+        background-position: center;
+    }
+    .delivery .main .inner{
+        display: block !important;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .delivery .main .inner h3{
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .delivery .main .inner .cstm-btns{
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+
+    /* ====== Best ====== */
+    .best .col-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .best .cards-data{
+        padding: 50px 25px !important;
+    }
+    .best .main-box .price{
+        margin-left: 15px;
+    }
+    .best .main-box .rating{
+        margin-left: 15px;
+    }
+    
+    /* ======= Brand ======= */
+    .brand .col-2{
+        width: 50%;
+    }
+    .brand .three{
+        display: none;
+    }
+    .brand .four{
+        display: none;
+    }
+    .brand .five{
+        display: none;
+    }
+    .brand .six{
+        display: none;
+    }
+
+    /* ========= Footer - Main ========= */
+    .sub-footer .form-control{
+        padding-left: 10px !important;
+    }
+    .sub-footer .cstm-btns{
+        padding: 7px 15px;
+    }
+    .sub-footer p{
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+    footer p{
+        font-size: 14px !important;
+        text-align-last: left;
+        line-height: 18px !important;
+    }
+    footer ul li a{
+        font-size: 14px !important;
+        text-align-last: left;
+        line-height: 18px !important;
+    }
+    .footer-end p{
+        font-size: 14px !important;
+        text-align-last: left;
+        line-height: 18px !important;
+    }
+    .sub-footer .store .phone{
+        border: 1px solid #797979;
+        width: max-content;
+        border-radius: 7px;
+        cursor: pointer;
+        padding: 10px 10px;
+    }
+    .sub-footer .store .phone img{
+        width: 20px;
+    }
+    .sub-footer .store .phone span{
+        color: var(--secondary-color);
+        font-weight: 600;
+        font-size: 14px;
+        padding: 0 5px;
+        transition: all 0.3s;
+    }
+    .sub-footer .store .phone:hover span{
+        color: var(--white);
+    }
+
+}
